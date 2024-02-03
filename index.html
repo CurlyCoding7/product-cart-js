@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/jpg" href="/img/model.jpg">
+    <title>Coding Assesment L2 boilerplate</title>
+
+</head>
+
+<body>
+    <!-- Your code goes here -->
+    <div class="container">
+        <div class="left-side">
+            <div id="main-image-container">
+                <img id="main-image" src="./img/Rectangle 4.png" alt="img">
+            </div>
+           <div class="images-frame">
+            <img class="small-image" src="./img/Rectangle 6.png" alt="">
+            <img class="small-image" src="./img/Rectangle 5.png" alt="">
+            <img class="small-image" src="./img/Rectangle 7.png" alt="">
+            <img class="small-image" src="./img/Rectangle 8.png" alt="">
+           </div>
+        </div>
+        <div class="right-side">
+            <div class="sideboard">
+                <p class="label" id="vendor">Marmeto</p>
+                <h3 id="title">Embrace Sideboard</h3>
+            </div>
+          
+            <div class="price-box">
+                <span id="curr-price">$12999.00 </span><span id="offer">35% off </span>
+                <p id="prev-price">$19999.00</p>
+            </div>
+            
+            <div class="color-selection">
+                <p class="label">Choose a color</p>
+                <div class="color-container">
+                    <div class="outer-color-box">
+                        <div class="color-box" id="box1"></div>
+                    </div>
+                    <div class="outer-color-box">
+                        <div class="color-box" id="box2"></div>
+                    </div>
+                    <div class="outer-color-box">
+                        <div class="color-box" id="box3"></div>
+                    </div>
+                    <div class="outer-color-box">
+                        <div class="color-box" id="box4"></div>
+                    </div>
+    
+                </div>
+            </div>
+
+            <p class="label">Choose a size</p>
+            <div class="size-box">
+                <div class="size">
+                    <input type="radio" name="size" id="small" value="Small">
+                    <label for="small">Small</label>
+                </div>
+                <div class="size">
+                    <input type="radio" name="size" id="medium" value="Medium">
+                    <label for="medium">Medium</label>
+                </div>
+                <div class="size">
+                    <input type="radio" name="size" id="large" value="Large">
+                    <label for="large">Large</label>
+                </div>
+                <div class="size">
+                    <input type="radio" name="size" id="extra-large" value="Extra Large" >
+                    <label for="extra-large">Extra Large</label>
+                </div>
+                <div class="size">
+                    <input type="radio" name="size" id="xxl" value="XXL">
+                    <label for="xxl">XXL</label>
+                </div>
+            </div>
+
+
+            <div class="cart-container">
+                <div class="quantity-box">
+                    <button class="quantity-button" id="minusButton">-</button>
+                    <span id="quantity">1</span>
+                    <button class="quantity-button" id="plusButton">+</button>
+                </div>
+
+                <div class="cart-button-box">
+                    <button id="addToCartButton">Add To Cart</button>
+                </div>
+
+            </div>
+
+            <p id="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dicta deserunt provident unde. Aspernatur magni pariatur odit nesciunt. Dolores numquam amet in autem voluptatem veniam nihil laborum, a nisi error.
+                Officia, amet sequi accusamus quam dolorum doloremque labore temporibus nisi obcaecati eius placeat quaerat corrupti natus nam tenetur molestias hic similique explicabo sit at fugiat cumque, voluptatibus iure culpa! Esse.
+            </p>
+        </div>
+    </div>
+
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>Added Product</h3>
+    <p id="product-title"></p>
+    <p id="product-quantity"></p>
+    <p id="product-price"></p>
+    <p id="product-vendor"></p>
+    <p id="product-color"></p>
+    <p id="product-size"></p>
+
+  </div>
+</div>
+
+    <!-- Happy coding 😊 -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
